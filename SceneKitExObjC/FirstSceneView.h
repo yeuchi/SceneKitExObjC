@@ -11,5 +11,10 @@
 
 @interface FirstSceneView : SCNView
 
--(void)setup;
+
+@property(strong, nonatomic) SCNTorus *torus;
+@property(strong, nonatomic) SCNNode *torusNode;
+@property(weak, nonatomic) UIImageView *image;
+
+-(void)setup: (UIImageView*) image;
 @end

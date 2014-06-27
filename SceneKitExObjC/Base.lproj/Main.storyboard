@@ -20,11 +20,15 @@
                                 <rect key="frame" x="0.0" y="-6" width="480" height="480"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </sceneKitView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="stripes" translatesAutoresizingMaskIntoConstraints="NO" id="QZh-jD-ynd">
+                                <rect key="frame" x="232" y="369" width="240" height="128"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <connections>
+                        <outlet property="image" destination="QZh-jD-ynd" id="K6I-cL-PCo"/>
                         <outlet property="sceneView" destination="2I1-0n-Ybj" id="Sp0-34-bnf"/>
                     </connections>
                 </viewController>
@@ -32,4 +36,7 @@
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="stripes" width="1024" height="1024"/>
+    </resources>
 </document>
