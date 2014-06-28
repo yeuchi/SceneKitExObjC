@@ -85,6 +85,7 @@
     [self.torusNode addAnimation:animation forKey:@"transform"];
 }
 
+#pragma - c allows typecasting without checking, if I can see the struct content, I can evaluate if they are aligned the same.
 -(SCNMatrix4)ConvertTransform: (CATransform3D) rot
 {
     SCNMatrix4 transform;
