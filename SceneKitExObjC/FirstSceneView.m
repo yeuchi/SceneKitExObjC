@@ -14,7 +14,7 @@
 
 // demo shapes
 //https://developer.apple.com/library/prerelease/ios/documentation/SceneKit/Reference/SCNPlane_Class/index.html#//apple_ref/occ/cl/SCNPlane
-
+// excellent article.
 
 
 -(void)setup: (UIImageView*) image
@@ -66,7 +66,7 @@
     
     // Give the Torus an image-based diffuse
     SCNMaterial *material = [SCNMaterial material];
-    material.diffuse.contents  = self.image;
+    material.diffuse.contents  = self.image.image;
     material.specular.contents = [UIColor whiteColor];
     material.shininess = 1.0;
     self.torus.materials = @[material];

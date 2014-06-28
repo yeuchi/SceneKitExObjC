@@ -28,6 +28,10 @@
     [self.view addSubview:sceneView]; */
     [self.sceneView setup: self.image];
 }
+-(void)viewWillAppear:(BOOL)animated
+{
+    self.image.hidden = true;
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

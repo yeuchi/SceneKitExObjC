@@ -21,7 +21,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </sceneKitView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="stripes" translatesAutoresizingMaskIntoConstraints="NO" id="QZh-jD-ynd">
-                                <rect key="frame" x="232" y="369" width="240" height="128"/>
+                                <rect key="frame" x="272" y="438" width="240" height="128"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
